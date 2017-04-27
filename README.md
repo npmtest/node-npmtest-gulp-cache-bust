@@ -1,6 +1,6 @@
 # npmtest-gulp-cache-bust
 
-#### test coverage for  [gulp-cache-bust (v1.1.0)](https://github.com/furzeface/gulp-cache-bust#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-cache-bust.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-cache-bust) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-cache-bust.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-cache-bust)
+#### basic test coverage for  [gulp-cache-bust (v1.1.0)](https://github.com/furzeface/gulp-cache-bust#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-cache-bust.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-cache-bust) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-cache-bust.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-cache-bust)
 
 #### Append a query string to your assets to bust that cache!
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-cache-bust/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-cache-bust/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-cache-bust/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-cache-bust/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-cache-bust/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-cache-bust/build/coverage.html/index.html)
 
@@ -98,7 +98,8 @@
         "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
         "test": "istanbul test _mocha --report html -- test/*.js --reporter spec"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
