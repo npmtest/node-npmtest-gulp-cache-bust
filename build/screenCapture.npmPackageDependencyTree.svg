@@ -50,7 +50,7 @@
 <tspan x="10" y="762">  │ │   │ │ └── array-find-index@1.0.2 </tspan>
 <tspan x="10" y="778">  │ │   │ └── signal-exit@3.0.2 </tspan>
 <tspan x="10" y="794">  │ │   ├── map-obj@1.0.1 </tspan>
-<tspan x="10" y="810">  │ │   ├─┬ normalize-package-data@2.3.6 </tspan>
+<tspan x="10" y="810">  │ │   ├─┬ normalize-package-data@2.3.8 </tspan>
 <tspan x="10" y="826">  │ │   │ ├── hosted-git-info@2.4.2 </tspan>
 <tspan x="10" y="842">  │ │   │ ├─┬ is-builtin-module@1.0.0 </tspan>
 <tspan x="10" y="858">  │ │   │ │ └── builtin-modules@1.1.1 </tspan>
